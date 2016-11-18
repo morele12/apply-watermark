@@ -12,7 +12,7 @@ $addWatermark = function($image, $text, $fontSize = 14) {
         imagesx($image) - 150,
         imagesy($image) - 20,
         $color,
-        'arial.ttf',
+        './arial.ttf',
         $text
     );
 };
